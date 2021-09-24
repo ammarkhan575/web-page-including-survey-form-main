@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona Awareness Survey Form</title>
+    <link rel="stylesheet" href="surveystyle.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <body>
+        <div class="covid">Know about COVID-19 <a href="index.html">Click Here</a></div>
+        <div class="main">
+            
+            <div class="survey">
+                <h1>Corona Survey Form</h1>
+                <form class="survey" action="https://formspree.io/f/meqvnjzj" target="_blank" method="post">
+                    <!--GET is less secure compared to POST because data sent is part of the URL. Never use GET when sending passwords or other sensitive information! -->
+                    <!--for linking fo php file change action to that php file-->
+
+                    <label>Please fill your full name:</label><br><br>
+                    <input name="name" type="text" placeholder="" id="name" size="50" required><br><br>
+
+                    <label for="Last Name">Which age group do you fall under?</label><br><br>
+                    <input type="radio" id="" name="agegroup">
+                    <span id="">0 - 17</span>
+                    <input type="radio" id="" name="agegroup">
+                    <span id="">18 - 44</span>
+                    <input type="radio" id="" name="agegroup">
+                    <span id="">45 - 70</span>
+                    <input type="radio" id="" name="agegroup">
+                    <span id="">Above 70</span><br><br>
+
+                    <label>What is your gender?</label><br><br>
+
+                    <input type="radio" id="female" name="gender">
+                    <span id="">Male</span>
+                    <input type="radio" id="male" name="gender">
+                    <span id="">Female</span>
+                    <input type="radio" id="other" name="gender">
+                    <span id="">Other</span><br><br>
+
+                    <label>Have you heard of CORONA pandemic?</label><br><br>
+
+                    <input type="radio" id="yes" name="aware">
+                    <span id="">Yes</span>
+                    <input type="radio" id="no" name="aware">
+                    <span id="">No</span><br><br>
+
+                    <label>What is your main source of information regarding COVID-19?</label><br><br>
+
+                    <input type="radio" id="social" name="source">
+                    <span id="">Social Media</span><br>
+                    <input type="radio" id="friends" name="source">
+                    <span id="">Friends & family</span><br>
+                    <input type="radio" id="media" name="source">
+                    <span id="">Newspapers or electronic media</span><br>
+                    <input type="radio" id="govrn" name="source">
+                    <span id="">Government official website</span><br>
+                    <input type="radio" id="other1" name="source">
+                    <span id="">Other(please specify)</span><br><br>
+                    <input name="name1" type="text" placeholder="" id="name1" size="50"><br><br>
+
+                    <label>Are you aware about CORONA symptoms?(If yes, check all that apply)</label><br><br>
+
+                    <input type="checkbox" id="" name="symptoms">
+                    <span id="">Cold</span><br>
+                    <input type="checkbox" id="" name="symptoms1">
+                    <span id="">Cough</span><br>
+                    <input type="checkbox" id="" name="symptoms2">
+                    <span id="">Fever</span><br>
+                    <input type="checkbox" id="" name="symptoms3">
+                    <span id="">Sore throat</span><br>
+                    <input type="checkbox" id="" name="symptoms4">
+                    <span id="">Itching</span><br>
+                    <input type="checkbox" id="" name="symptoms5">
+                    <span id="">Malaria</span><br>
+                    <input type="checkbox" id="" name="symptoms6">
+                    <span id="">Shortness of breath</span><br>
+                    <input type="checkbox" id="" name="symptoms7">
+                    <span id="">Other(please specify)</span><br><br>
+                    <input name="symptom" type="text" placeholder="" id="symptom" size="50"><br><br>
+
+                    <label>Do you know where to go if you start developing symptoms?</label><br><br>
+
+                    <input type="radio" id="yes1" name="aware1">
+                    <span id="">Yes</span>
+                    <input type="radio" id="no1" name="aware1">
+                    <span id="">No</span><br><br>
+
+                    <label>Do you know where to go if you start developing symptoms?</label><br><br>
+
+                    <input type="radio" id="yes2" name="aware2">
+                    <span id="">Yes</span>
+                    <input type="radio" id="no2" name="aware2">
+                    <span id="">No</span><br><br>
+
+                    <label>Do you aware of government free vaccination services?</label><br><br>
+
+                    <input type="radio" id="yes3" name="aware3">
+                    <span id="">Yes</span>
+                    <input type="radio" id="no3" name="aware3">
+                    <span id="">No</span><br><br>
+
+                    <label>Have you already taken the vaccine?</label><br><br>
+
+                    <input type="radio" id="dose1" name="dose">
+                    <span id="">Only 1st dose</span><br>
+                    <input type="radio" id="dose2" name="dose">
+                    <span id="">Only 2nd dose</span><br>
+                    <input type="radio" id="both" name="dose">
+                    <span id="">Both</span><br>
+                    <input type="radio" id="none" name="dose">
+                    <span id="">Not yet</span><br><br>
+
+                    <label>Do you think your country's Health department is doing enough to prevent the outbreak from spreading?</label><br><br>
+
+                    <input type="radio" id="yes4" name="aware4">
+                    <span id="">Yes</span>
+                    <input type="radio" id="no4" name="aware4">
+                    <span id="">No</span>
+
+                    <input type="radio" id="notsure" name="aware4">
+                    <span id="">Not sure</span><br><br>
+
+                    <button type="submit" name="submit" value="submit" id="submit">Submit</button>
+
+
+
+
+
+                </form>
+            </div>
+        </div>
+
+
+    </body>
+
+</html>

@@ -1,0 +1,46 @@
+body{
+    background: url("coronafree.jpg");
+    background-size: cover, 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:black
+}
+
+div.covid{
+    width: 300px;
+    margin: auto;
+}
+
+div.main{
+    width: 500px;
+    margin:auto;
+    background-color: rgba(225, 215, 215, 0.592);
+    font-size:19px;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+h1{
+    text-align:center;
+    padding:3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+label{
+    font-weight: bold;
+    font-style: normal !important;
+    
+}
+form.survey{
+    margin:40px;
+}
+input#name{
+    border:1px solid blue;
+    padding:4px;
+}
+#submit{
+    color:red;
+    border-radius: unset;
+    border:2px solid black;
+    background-color: yellowgreen;
+    cursor:pointer;
+}
+
+
